@@ -1,0 +1,9 @@
+.place__website {
+  align-self: end;
+}
+
+@media (max-width: 400px) {
+  .place__website {
+    align-self: start;
+  }
+}
