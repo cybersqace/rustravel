@@ -2,8 +2,7 @@
   margin: 0;
   width: 100%;
   max-width: 460px;
-  max-height: 152px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -15,15 +14,13 @@
 
 @media screen and (max-width: 1024px) {
   .place__title {
-    max-width: 440px;
-    max-height: 152px;
+    font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
 @media (max-width: 768px) {
   .place__title {
     max-width: 340px;
-    max-height: 92px;
     font-size: 42px;
     line-height: 46px;
   }

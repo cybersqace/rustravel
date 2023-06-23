@@ -2,7 +2,6 @@
   margin: 0 auto 32px;
   width: 100%;
   max-width: 560px;
-  max-height: 152px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -15,10 +14,11 @@
   z-index: 1;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px){
   .cover__title {
-    font-size: 32px;
-    line-height: 35px;
-    max-width: 240px;
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(35px + (76 - 35) * ((100vw - 320px) / (768 - 320)));
+    width: calc(288px + (560 - 288) * ((100vw - 320px) / (768 - 320)));;
+    margin-bottom: 16px;
   }
 }

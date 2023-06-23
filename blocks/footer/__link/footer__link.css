@@ -2,8 +2,7 @@
   margin: 0;
   width: 100%;
   max-width: 106px;
-  max-height: 18px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -12,6 +11,11 @@
    color: #FFFFFF;
    list-style: none;
    text-decoration: none;
+   transition: opacity 1s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 400px) {

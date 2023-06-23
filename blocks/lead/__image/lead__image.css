@@ -3,14 +3,13 @@
   padding: 0;
   max-width: 984px;
   max-height: 615px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
     max-height: 580px;
-    margin: 0;
   }
 }
 
@@ -18,7 +17,6 @@
   .lead__image {
     max-width: 768px;
     max-height: 480px;
-    margin: 0;
   }
 }
 
@@ -26,6 +24,15 @@
   .lead__image {
     max-width: 320px;
     max-height: 200px;
-    margin: 0;
+  }
+} */
+
+@media screen and (max-width: 1280px) {
+  .lead__image {
+    /* max-width: calc(320px + (984 - 320) * ((100vw - 320px) / (1280 - 320)));
+    margin-left: calc(0 + (148 - 0) * ((100vw - 320px) / (1280 - 320)));
+    margin-right: calc(0 + (148 - 0) * ((100vw - 320px) / (1280 - 320)));
+    max-height: 580px; */
+    max-width: 100%;
   }
 }

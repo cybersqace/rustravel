@@ -12,7 +12,7 @@
 
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-@import url(../blocks/header/__lang-link/_underline/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_primary/header__lang-link_primary.css);
 
 @import url(../blocks/content/content.css);
 
@@ -57,8 +57,6 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/cover/cover.css);
-
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 
 @import url(../blocks/cover/__background/cover__background.css);
 

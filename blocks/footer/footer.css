@@ -19,11 +19,10 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 520px) {
   .footer {
     margin: 64px 0 24px 16px;
     max-width: 186px;
-    max-height: 310px;
     row-gap: 32px;
   }
 }
