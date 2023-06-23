@@ -15,10 +15,3 @@
     width: calc(320px + (340 - 320) * ((100vw - 320px) / (768 - 320)));
   }
 }
-/*
-@media (max-width: 400px) {
-  .place__image {
-    max-width: 320px;
-    max-height: 320px;
-  }
-} */

@@ -12,7 +12,6 @@
 
    @media (max-width: 768px) {
     .lead__title {
-      /* width: calc(288px + (720 - 288) * ((100vw - 320px) / (1280 - 320))); */
       font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
       line-height: calc(44px + (100 - 44) * ((100vw - 320px) / (768 - 320)));
       margin-left: 24px;
