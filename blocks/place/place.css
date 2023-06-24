@@ -12,6 +12,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .place {
+    margin-bottom: 47px;
+  }
+}
+
 @media (max-width: 400px) {
   .place {
    display: flex;
