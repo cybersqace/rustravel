@@ -1,13 +1,11 @@
 .cover {
   margin: 92px auto 0;
+  max-width: 1184px;
 }
 
 @media (max-width: 768px) {
   .cover {
     margin-top: calc(66px + (90 - 66) * ((100vw - 320px) / (768 - 320)));
-    margin-left: auto;
-    margin-right: auto;
-    width: calc(320px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
-    /* height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320))); */
+    max-width: 768px;
   }
 }

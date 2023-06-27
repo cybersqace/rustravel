@@ -15,12 +15,20 @@
 
 @media (max-width: 1024px) {
   .places {
-    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1280 - 768)));
-    margin-right: calc(24px + (48 - 24) * ((100vw - 768px) / (1280 - 768)));
+    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+    margin-right: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
+  .places {
+    margin-top: 88px;
+    margin-left: calc(6px + (24 - 6) * ((100vw - 460px) / (768 - 460)));
+    margin-right: calc(6px + (24 - 6) * ((100vw - 460px) / (768 - 460)));
+  }
+}
+
+@media (max-width: 460px) {
   .places {
     margin-top: 64px;
     margin-left: 0;

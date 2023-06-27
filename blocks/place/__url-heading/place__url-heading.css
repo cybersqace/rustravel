@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
   .place__url-heading {
     padding-left: 16px;
     padding-right: 16px;

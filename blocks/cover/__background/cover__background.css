@@ -8,8 +8,8 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  width: 100%;
-  max-width: 1184px;
+  max-width: 100%;
+  min-height: 740px;
   text-decoration: none;
   z-index: 0;
 }
@@ -29,13 +29,6 @@
 .cover__background:hover:before {
   opacity: 0.8;
 }
-
-@media screen and (min-width: 1280px) { 
-  .cover__background {
-    min-height: 740px;
-  }
-}
-
 
 @media screen and (max-width: 1280px) { 
   .cover__background {

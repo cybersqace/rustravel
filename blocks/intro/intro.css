@@ -8,7 +8,6 @@
   .intro {
     margin-left: 48px;
     margin-bottom: 48px;
-    max-width: 690px;
   }
 }
 
@@ -19,9 +18,9 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
   .intro {
     margin: 64px 16px 0;
-    max-width: 288px;
+    max-width: 460px;
   }
 }

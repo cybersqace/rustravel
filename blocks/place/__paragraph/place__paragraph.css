@@ -1,7 +1,7 @@
 .place__paragraph {
   margin: 0;
   padding-bottom: 26px;
-  max-width: 484px;
+  max-width: 100%;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -9,6 +9,11 @@
   line-height: 163%;
   /* or 29px */
   color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.place__paragraph:last-child {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,12 +24,11 @@
 
 @media (max-width: 768px) {
   .place__paragraph {
-    max-width: 352px;
     font-size: 16px;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
   .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
