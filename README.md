@@ -8,7 +8,7 @@
 <img src="https://i.ibb.co/XZYJY9S/image.png" border="0" alt="скриншот десктоп версии">
 </details>
 
-## Функционал:
+## Функционал
 - Адаптивный интерфейс для разных устройств
 
 ## Использованые технологии
@@ -16,14 +16,13 @@
 - CSS3:
   - Flexbox;
   - Grid Layout;
-  - Positioning;
   - Adaptive UI;
   - Media Queries;
 - Фйловая структура Nested БЭМ;
 
 ## Ссылка на сайт
-https://cyberdds.github.io/russian-travel/
+* https://cybersqace.github.io/russian-travel/
 
-## Макет в Figma
+## Ссылка на макет в Figma
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
