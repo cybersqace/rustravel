@@ -5,8 +5,7 @@
 
 ### Скриншот
 <details><summary><b>Развернуть</b></summary>
-<img src="https://i.ibb.co/XZYJY9S/image.png" border="0" alt="скриншот десктоп версии" width="400">
-<img src="https://i.ibb.co/529h6L5/photo-2023-06-27-12-19-03.jpg" border="0" alt="скриншот мобильной версии" width="400">
+<img src="https://i.ibb.co/XZYJY9S/image.png" border="0" alt="скриншот десктоп версии">
 </details>
 
 ## Функционал:
