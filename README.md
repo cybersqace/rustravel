@@ -21,7 +21,7 @@
 - Фйловая структура Nested БЭМ;
 
 ## Ссылка на сайт
-* https://cybersqace.github.io/russian-travel/
+* https://cybersqace.github.io/russian-travel/index.html
 
 ## Ссылка на макет в Figma
 
