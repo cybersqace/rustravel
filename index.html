@@ -9,14 +9,39 @@
   <title>Путешествия по России</title>
 </head>
 <body class="page">
+  <div id="progress-bar" class="progress-bar"></div>
   <header class="header">
     <img src="images/header-logo.svg" class="header__logo" alt="Россия">
-    <ul class="header__lang-links">
-      <li><a href="#" class="header__lang-link header__lang-link_primary">Ru</a></li>
-      <li><a href="#" class="header__lang-link">En</a></li>
+    <ul class="header__list">
+      <li>
+        <div class="header__list-block">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4 4 58 58"><defs><filter id="blur" width="200%" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur><feOffset dx="0" dy="4" result="offsetblur"></feOffset><feComponentTransfer><feFuncA type="linear" slope="0.05"></feFuncA></feComponentTransfer><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g filter="url(#blur)" id="04d"><g transform="translate(20,10)"><g class="am-weather-cloud-1"><path d="M47.7,35.4     c0-4.6-3.7-8.2-8.2-8.2c-1,0-1.9,0.2-2.8,0.5c-0.3-3.4-3.1-6.2-6.6-6.2c-3.7,0-6.7,3-6.7,6.7c0,0.8,0.2,1.6,0.4,2.3     c-0.3-0.1-0.7-0.1-1-0.1c-3.7,0-6.7,3-6.7,6.7c0,3.6,2.9,6.6,6.5,6.7l17.2,0C44.2,43.3,47.7,39.8,47.7,35.4z" fill="#e0e2e5" stroke-linejoin="round" stroke-width="0" transform="translate(-10,-6), scale(0.6)"></path></g><g class="am-weather-cloud-2"><path d="M47.7,35.4c0-4.6-3.7-8.2-8.2-8.2c-1,0-1.9,0.2-2.8,0.5c-0.3-3.4-3.1-6.2-6.6-6.2c-3.7,0-6.7,3-6.7,6.7c0,0.8,0.2,1.6,0.4,2.3    c-0.3-0.1-0.7-0.1-1-0.1c-3.7,0-6.7,3-6.7,6.7c0,3.6,2.9,6.6,6.5,6.7l17.2,0C44.2,43.3,47.7,39.8,47.7,35.4z" fill="#c6deff" stroke-linejoin="round" stroke-width="0" transform="translate(-20,-11)"></path></g></g></g></svg>
+          <p class="header__list-text">Погода</p>
+        </div>
+      </li>
+      <li>
+        <div class="header__list-block">
+          <img src="./images/mapTravel.png" class="header__list-image">
+          <a href="https://yandex.ru/maps" target="_blank" class="header__list-text">Карты</a>
+        </div>
+      </li>
     </ul>
   </header>
   <main class="content">
+    <div class="popup" id="weatherPopup">
+      <div class="popup__container">
+        <button class="popup__close-button"></button>
+        <div class="popup__caption">
+          <p class="popup__title">Погода сегодня</p>
+          <img src="./images/planeIcon.png" class="popup__icon">
+        </div>
+        <form class="popup__form">
+          <input type="text" class="popup__form-input" placeholder="Введите город">
+          <button type="submit" class="popup__button">Поиск</button>
+        </form>
+        <div class="popup__card"></div>
+      </div>
+    </div>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -118,17 +143,16 @@
       </a>
     </section>
   </main>
-    <footer class="footer" aria-label="футер">
-      <nav>
-        <ul class="footer__links">
-          <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
-          <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
-          <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
-          <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
-          <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
-        </ul>
-      </nav>
-      <p class="footer__copyright">&copy; 2023. Илья Корольков</p>
-    </footer>
+  <footer class="footer" aria-label="футер">
+    <nav>
+      <ul class="footer__links">
+        <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
+        <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
+        <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
+      </ul>
+    </nav>
+    <p class="footer__copyright">&copy; 2024. Юлия Гришина</p>
+  </footer>
+  <script src="./pages/index.js"></script>
 </body>
 </html>

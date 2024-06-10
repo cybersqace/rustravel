@@ -1,0 +1,6 @@
+.popup__caption {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}

@@ -1,0 +1,6 @@
+.popup__title {
+  margin: 0 0 0 15px;
+  align-self: flex-start;
+  font-size: 20px;
+  color: white;
+}

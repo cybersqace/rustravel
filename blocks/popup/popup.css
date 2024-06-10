@@ -1,0 +1,85 @@
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(114, 114, 120, 0.405);
+}
+
+.cityDisplay {
+  font-size: 56px;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.tempDisplay {
+  font-size: 36px;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+  margin: 5px 0;
+}
+
+.humidityDisplay {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.descDisplay {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.weatherEmoji {
+  margin: 0;
+  font-size: 80px;
+}
+
+.errorDisplay {
+  font-size: 40px;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
+}
+
+@media screen and (max-width: 1030px) {
+  .cityDisplay  {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .cityDisplay  {
+    font-size: 36px;
+  }
+
+  .tempDisplay {
+    font-size: 16px;
+  }
+  
+  .humidityDisplay {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .descDisplay {
+    font-size: 24px;
+  }
+  
+  .weatherEmoji {
+    font-size: 40px;
+  }
+  
+  .errorDisplay {
+    font-size: 20px;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+  }
+}

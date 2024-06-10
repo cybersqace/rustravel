@@ -1,0 +1,17 @@
+.popup__card {
+  margin-top: 10px;
+  background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 386px;
+}
+
+@media screen and (max-width: 910px) {
+  .popup__card  {
+    min-height: 253px;
+  }
+}

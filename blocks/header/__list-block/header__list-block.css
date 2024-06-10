@@ -1,0 +1,57 @@
+.header__list-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: 43.2px;
+  height: 43.2px;
+  right: -4px;
+  transform: scale(1.2);
+}
+
+.am-weather-cloud-1 {
+  animation-name: am-weather-cloud-1;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes am-weather-cloud-1 {
+  0% {
+    transform: translate(-5px, 0);
+  }
+  50% {
+    transform: translate(10px, 0);
+}
+100% {
+  transform: translate(-5px, 0);
+}
+}
+
+.am-weather-cloud-2 {
+  animation-name: am-weather-cloud-2;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes am-weather-cloud-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(2px, 0);
+}
+100% {
+  transform: translate(0, 0);
+}
+}
+
+@media (max-width: 500px) {
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}

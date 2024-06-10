@@ -1,0 +1,14 @@
+.header__list-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 500px) {
+  .header__list-image {
+    width: 25px;
+    height: 25px;
+    margin-right: 4px;
+  }
+}
